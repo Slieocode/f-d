@@ -123,9 +123,9 @@ $(document).ready(function(){
 	          // Call the scroll function
 	        goToByScroll($(this).attr("id"));           
 	    });
-	    $('header button').on('click', function(){
-	        goToByScroll($(this).attr("id"));           	    	
-	    })
+	    // $('header button').on('click', function(){
+	    //     goToByScroll($(this).attr("id"));           	    	
+	    // })
 	    $('.menu-btn').on('click', function(){
 	    	$('nav ul').fadeToggle();
 	    });

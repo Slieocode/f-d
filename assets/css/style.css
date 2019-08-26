@@ -306,7 +306,7 @@ template {
 
 /* Colors */
 body {
-  height: 4000px; }
+  overflow-x: hidden; }
 
 p {
   color: #232323; }
@@ -365,10 +365,7 @@ ul {
   margin-top: 100px; }
 
 section {
-  margin-top: 50px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-bottom: 100px; }
+  margin-top: -80px; }
 
 .italic {
   font-family: 'Barlow', sans-serif; }
@@ -479,7 +476,7 @@ nav {
 main {
   padding-top: 3%; }
   main header {
-    height: 700px;
+    height: 550px;
     position: relative;
     background: #0287b1;
     padding-top: 30px;
@@ -503,11 +500,11 @@ main {
       main header .book-holder .text-main h1, main header .book-holder .text-main h2, main header .book-holder .text-main p {
         color: #FFF; }
       main header .book-holder .text-main h1 {
-        font-size: 2.7em; }
+        font-size: 2em; }
       main header .book-holder .text-main h2 {
-        font-size: 1.9em; }
+        font-size: 1.5em; }
       main header .book-holder .text-main p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-weight: bold;
         word-spacing: 4px;
         color: #FFF; }
@@ -532,7 +529,7 @@ main {
         max-width: 100%; }
       main header .book-holder .book-main .book-wrap {
         margin: 0 auto 10px;
-        max-width: 335px;
+        max-width: 271px;
         position: relative;
         z-index: 10; }
       main header .book-holder .book-main .book {
@@ -787,7 +784,7 @@ main {
     font-weight: bold; }
 
 .info-wrapper {
-  height: 900px;
+  height: 700px;
   -webkit-box-pack: center;
           justify-content: center;
   display: -webkit-box;
@@ -801,14 +798,14 @@ main {
     text-align: center; }
     .info-wrapper .wrap-holder h1 {
       color: #FFF;
-      font-size: 2.5em; }
+      font-size: 2.3em; }
     .info-wrapper .wrap-holder p {
       font-size: 1.5em;
       color: #FFF; }
   .info-wrapper .waves-1,
   .info-wrapper .waves-2 {
     position: absolute;
-    top: -1%;
+    top: -2%;
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
     width: 100% !important;

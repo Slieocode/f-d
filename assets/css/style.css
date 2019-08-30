@@ -978,10 +978,12 @@ main {
   margin: 15px 0; }
 
 .testim .cont div p {
-  font-size: 1.15em;
+  font-size: 1.1em;
   color: #000;
-  width: 80%;
-  margin: auto; }
+  width: 82%;
+  text-align: justify;
+  margin: auto;
+  line-height: 1.6; }
 
 .testim .cont div.active .img img {
   -webkit-animation: testim-show .5s ease-in-out forwards;
@@ -1306,6 +1308,7 @@ footer {
 @media screen and (max-width: 520px) {
   .info-wrapper .wrap-holder p {
     font-size: 1.2em;
+        line-height: 3;
     color: #FFF; } }
 @media screen and (max-width: 780px) {
   .contact form .box label {

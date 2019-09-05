@@ -466,10 +466,10 @@ nav {
         font-weight: bold;
         -webkit-transition: .3s;
         transition: .3s; }
-        nav ul li a:hover {
+        nav ul li a:not(.contactlink):hover {
           color: #0287b1;
           border-bottom: 3px solid #0287b1; }
-      nav ul li:hover {
+      nav ul li:not(.contactlink):hover {
         -webkit-transform: scale(1.1);
                 transform: scale(1.1); }
 
@@ -1846,3 +1846,31 @@ footer .contact-holder {
 @media screen and (max-width: 450px) {
   .odometer-inside {
     font-size: 0.8em; } }
+
+    #contactlink{
+      border:3px solid #0287B1;
+      padding: 8px;
+      border-radius: 30px;
+      width:300px;
+      word-spacing: 5px; 
+    }
+
+    #contactlink i {
+      transition: .3s;
+      animation: animate 1.5s infinite ease-in-out
+    }
+    #contactlink:hover i {
+      transform:rotate(360deg);
+    }
+
+  @keyframes animate{
+     0%{
+        transform: translateY(1px)
+     }
+     50%{
+        transform: translateY(-1px)      
+     }
+     100%{
+        transform: translateY(1px)
+     }
+  }
